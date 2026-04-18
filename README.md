@@ -115,6 +115,7 @@ Each session has a `steps/` folder with numbered files. **Run them in order:**
 cd session1
 pip install -r requirements.txt
 cp .env.example .env        # Edit with your keys
+code .env    # If you are using VS Code; otherwise, open the .env file and set up your API keys.
 
 python steps/step1_hello_llm.py          # Your first LLM call
 python steps/step2_conversation.py       # Multi-turn chat
@@ -128,6 +129,7 @@ streamlit run steps/step5_personas.py    # Prompt engineering
 cd session2
 pip install -r requirements.txt
 cp .env.example .env
+code .env    # If you are using VS Code; otherwise, open the .env file and set up your API keys.
 
 python steps/step1_explore_data.py       # Browse the parts database
 python steps/step2_test_tools.py         # Test MCP tools directly
@@ -139,6 +141,7 @@ python steps/step3_run_agent.py          # Run the full agent!
 cd session3
 pip install -r requirements.txt
 cp .env.example .env
+code .env    # If you are using VS Code; otherwise, open the .env file and set up your API keys.
 
 python rag_demo.py                       # See RAG in action (demo only)
 streamlit run rag_streamlit.py 
@@ -149,6 +152,7 @@ streamlit run rag_streamlit.py
 cd session4
 pip install -r requirements.txt
 cp .env.example .env
+code .env    # If you are using VS Code; otherwise, open the .env file and set up your API keys.
 
 python steps/step1_explore_dishes.py     # Browse the recipe database
 python steps/step2_test_tools.py         # Test recipe tools
@@ -160,6 +164,7 @@ python steps/step3_run_agent.py          # Run the recipe agent
 cd session5
 pip install -r requirements.txt
 cp .env.example .env
+code .env    # If you are using VS Code; otherwise, open the .env file and set up your API keys.
 
 streamlit run app.py                     # Run the full platform!
 ```
