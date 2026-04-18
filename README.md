@@ -1,4 +1,4 @@
-\# From Prompt to Agent: Your First Intelligent AI System
+# From Prompt to Agent: Your First Intelligent AI System
 
 **Workshop | 18 April 2026 | University of Hertfordshire**
 
@@ -70,8 +70,7 @@ The university runs **Qwen2.5-72B-Instruct** on a GPU cluster. This is the best 
 
 ```
 LLM_SERVICE_URL=https://uhhpc.herts.ac.uk/qwen
-
-LLM_API_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEyMyIsIm5hbWUiOiJLaGFzaGF5YXIiLCJyb2xlIjoicHJpbmNpcGFsX2FpX2VuZ2luZWVyIiwiaWF0IjoxNzc0MjE0NzY0LCJleHAiOjE3NzQyMTgzNjR9.6cyxd0svDfs1Hzh29CkMFidpgaBDinFa9nHXywq3F-Y
+LLM_API_TOKEN=your-token-here
 ```
 
 The workshop instructor will provide the token on the day.
