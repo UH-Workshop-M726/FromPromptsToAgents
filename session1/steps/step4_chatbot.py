@@ -13,7 +13,7 @@ import llm_client
 st.set_page_config(page_title="AI Chatbot", page_icon="💬")
 st.title("💬 AI Chatbot")
 
-# --- Sidebar: show which LLM backend is active ---
+# --- Sidebar: display the active LLM backend ---
 with st.sidebar:
     st.header("LLM Status")
     health = llm_client.check_health()
