@@ -1,0 +1,4 @@
+requests
+python-dotenv
+streamlit
+mcp[cli]>=1.0.0

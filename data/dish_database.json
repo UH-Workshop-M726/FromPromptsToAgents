@@ -1,0 +1,542 @@
+[
+  {
+    "dish_id": "dsh-001",
+    "name": "Grilled Salmon & Quinoa",
+    "price_gbp": 12.5,
+    "protein_g": 35,
+    "calories_kcal": 550,
+    "key_vitamins": ["D", "B12", "Omega-3"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-002",
+    "name": "Lentil Dahl with Spinach",
+    "price_gbp": 8.0,
+    "protein_g": 18,
+    "calories_kcal": 420,
+    "key_vitamins": ["Iron", "B6", "Folate"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-003",
+    "name": "Chicken Avocado Salad",
+    "price_gbp": 10.5,
+    "protein_g": 30,
+    "calories_kcal": 480,
+    "key_vitamins": ["E", "K", "C"],
+    "dietary": ["keto"]
+  },
+  {
+    "dish_id": "dsh-004",
+    "name": "Beef & Broccoli Stir-fry",
+    "price_gbp": 11.0,
+    "protein_g": 28,
+    "calories_kcal": 510,
+    "key_vitamins": ["Iron", "Zinc", "A"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-005",
+    "name": "Chickpea Curry",
+    "price_gbp": 7.5,
+    "protein_g": 15,
+    "calories_kcal": 380,
+    "key_vitamins": ["Manganese", "Folate", "Fiber"],
+    "dietary": ["vegan"]
+  },
+  {
+    "dish_id": "dsh-006",
+    "name": "Turkey Meatballs with Zoodles",
+    "price_gbp": 11.5,
+    "protein_g": 32,
+    "calories_kcal": 350,
+    "key_vitamins": ["B3", "B6", "Selenium"],
+    "dietary": ["low-carb"]
+  },
+  {
+    "dish_id": "dsh-007",
+    "name": "Miso Glazed Tofu",
+    "price_gbp": 9.0,
+    "protein_g": 20,
+    "calories_kcal": 310,
+    "key_vitamins": ["K", "Manganese", "Calcium"],
+    "dietary": ["vegan", "vegetarian"]
+  },
+  {
+    "dish_id": "dsh-008",
+    "name": "Greek Lamb Souvlaki",
+    "price_gbp": 14.0,
+    "protein_g": 38,
+    "calories_kcal": 620,
+    "key_vitamins": ["B12", "Zinc", "Iron"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-009",
+    "name": "Shrimp Scampi with Whole Wheat Pasta",
+    "price_gbp": 13.5,
+    "protein_g": 25,
+    "calories_kcal": 440,
+    "key_vitamins": ["B12", "Choline", "Copper"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-010",
+    "name": "Roasted Vegetable Frittata",
+    "price_gbp": 8.5,
+    "protein_g": 14,
+    "calories_kcal": 280,
+    "key_vitamins": ["A", "C", "D"],
+    "dietary": ["vegetarian", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-011",
+    "name": "Quinoa & Black Bean Burrito Bowl",
+    "price_gbp": 9.5,
+    "protein_g": 16,
+    "calories_kcal": 490,
+    "key_vitamins": ["Magnesium", "Potassium", "Fiber"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-012",
+    "name": "Cod with Roasted Asparagus",
+    "price_gbp": 12.0,
+    "protein_g": 24,
+    "calories_kcal": 290,
+    "key_vitamins": ["B12", "Selenium", "K"],
+    "dietary": ["low-calorie", "keto"]
+  },
+  {
+    "dish_id": "dsh-013",
+    "name": "Eggplant Parmesan",
+    "price_gbp": 10.0,
+    "protein_g": 12,
+    "calories_kcal": 410,
+    "key_vitamins": ["K", "B1", "C"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-104",
+    "name": "Vegetarian Chili",
+    "price_gbp": 8.5,
+    "protein_g": 14,
+    "calories_kcal": 340,
+    "key_vitamins": ["Fiber", "Folate", "A"],
+    "dietary": ["vegetarian", "vegan"]
+  },
+  {
+    "dish_id": "dsh-105",
+    "name": "Beef Stroganoff",
+    "price_gbp": 14.0,
+    "protein_g": 34,
+    "calories_kcal": 650,
+    "key_vitamins": ["B12", "Iron", "Zinc"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-106",
+    "name": "Grilled Lobster Tail",
+    "price_gbp": 24.0,
+    "protein_g": 28,
+    "calories_kcal": 310,
+    "key_vitamins": ["B12", "Selenium", "Copper"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-107",
+    "name": "Egg Salad Sandwich",
+    "price_gbp": 7.0,
+    "protein_g": 14,
+    "calories_kcal": 420,
+    "key_vitamins": ["B12", "D", "Choline"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-108",
+    "name": "Quinoa Stir-fry",
+    "price_gbp": 9.5,
+    "protein_g": 12,
+    "calories_kcal": 380,
+    "key_vitamins": ["Magnesium", "Fiber", "C"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-109",
+    "name": "Pan-seared Tilapia",
+    "price_gbp": 11.0,
+    "protein_g": 22,
+    "calories_kcal": 240,
+    "key_vitamins": ["B12", "Selenium", "D"],
+    "dietary": ["gluten-free", "low-calorie"]
+  },
+  {
+    "dish_id": "dsh-110",
+    "name": "Cauliflower Fried Rice",
+    "price_gbp": 9.0,
+    "protein_g": 8,
+    "calories_kcal": 210,
+    "key_vitamins": ["C", "K", "B6"],
+    "dietary": ["vegan", "low-carb"]
+  },
+  {
+    "dish_id": "dsh-111",
+    "name": "Baked Tofu with Broccoli",
+    "price_gbp": 9.5,
+    "protein_g": 20,
+    "calories_kcal": 320,
+    "key_vitamins": ["Calcium", "C", "K"],
+    "dietary": ["vegan"]
+  },
+  {
+    "dish_id": "dsh-112",
+    "name": "Chicken Piccata",
+    "price_gbp": 13.5,
+    "protein_g": 30,
+    "calories_kcal": 450,
+    "key_vitamins": ["B3", "B6", "C"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-113",
+    "name": "Gnocchi with Sage Butter",
+    "price_gbp": 11.0,
+    "protein_g": 6,
+    "calories_kcal": 520,
+    "key_vitamins": ["A", "B1", "Phosphorus"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-114",
+    "name": "Baked Salmon with Dill",
+    "price_gbp": 14.5,
+    "protein_g": 32,
+    "calories_kcal": 410,
+    "key_vitamins": ["D", "B12", "Omega-3"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-115",
+    "name": "Vegetable Korma",
+    "price_gbp": 10.5,
+    "protein_g": 8,
+    "calories_kcal": 460,
+    "key_vitamins": ["A", "E", "C"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-116",
+    "name": "Roast Beef with Carrots",
+    "price_gbp": 15.0,
+    "protein_g": 36,
+    "calories_kcal": 580,
+    "key_vitamins": ["B12", "Iron", "A"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-117",
+    "name": "Avocado Toast with Egg",
+    "price_gbp": 8.0,
+    "protein_g": 12,
+    "calories_kcal": 360,
+    "key_vitamins": ["E", "B12", "D"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-118",
+    "name": "Tuna Salad (No Mayo)",
+    "price_gbp": 9.0,
+    "protein_g": 26,
+    "calories_kcal": 240,
+    "key_vitamins": ["D", "B12", "Selenium"],
+    "dietary": ["gluten-free", "low-carb"]
+  },
+  {
+    "dish_id": "dsh-119",
+    "name": "Baked Ziti (Vegetarian)",
+    "price_gbp": 10.0,
+    "protein_g": 18,
+    "calories_kcal": 590,
+    "key_vitamins": ["Calcium", "B12", "A"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-120",
+    "name": "Shrimp Fra Diavolo",
+    "price_gbp": 14.0,
+    "protein_g": 24,
+    "calories_kcal": 480,
+    "key_vitamins": ["B12", "C", "Iron"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-121",
+    "name": "Grilled Polenta with Mushrooms",
+    "price_gbp": 9.5,
+    "protein_g": 6,
+    "calories_kcal": 310,
+    "key_vitamins": ["D", "B1", "B2"],
+    "dietary": ["vegetarian", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-122",
+    "name": "Turkey Burger on Whole Wheat",
+    "price_gbp": 10.5,
+    "protein_g": 28,
+    "calories_kcal": 490,
+    "key_vitamins": ["B3", "B6", "Selenium"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-123",
+    "name": "Lentil Shepherd's Pie",
+    "price_gbp": 11.0,
+    "protein_g": 16,
+    "calories_kcal": 430,
+    "key_vitamins": ["Fiber", "Iron", "A"],
+    "dietary": ["vegan"]
+  },
+  {
+    "dish_id": "dsh-124",
+    "name": "Pan-seared Scallops",
+    "price_gbp": 18.0,
+    "protein_g": 22,
+    "calories_kcal": 290,
+    "key_vitamins": ["B12", "Zinc", "Magnesium"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-125",
+    "name": "Couscous with Roasted Veg",
+    "price_gbp": 9.0,
+    "protein_g": 8,
+    "calories_kcal": 360,
+    "key_vitamins": ["A", "C", "Selenium"],
+    "dietary": ["vegan"]
+  },
+  {
+    "dish_id": "dsh-126",
+    "name": "Stuffed Courgette (Zucchini)",
+    "price_gbp": 8.5,
+    "protein_g": 10,
+    "calories_kcal": 270,
+    "key_vitamins": ["C", "A", "K"],
+    "dietary": ["vegetarian", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-127",
+    "name": "Chicken Fajitas",
+    "price_gbp": 12.0,
+    "protein_g": 30,
+    "calories_kcal": 510,
+    "key_vitamins": ["C", "B3", "B6"],
+    "dietary": []
+  },
+  {
+    "dish_id": "dsh-128",
+    "name": "Miso Ramen (Tofu)",
+    "price_gbp": 11.5,
+    "protein_g": 14,
+    "calories_kcal": 550,
+    "key_vitamins": ["K", "Manganese", "B1"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-129",
+    "name": "Beef Keema",
+    "price_gbp": 13.0,
+    "protein_g": 28,
+    "calories_kcal": 580,
+    "key_vitamins": ["B12", "Iron", "Zinc"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-130",
+    "name": "Roasted Parsnips",
+    "price_gbp": 6.0,
+    "protein_g": 2,
+    "calories_kcal": 160,
+    "key_vitamins": ["C", "K", "Folate"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-131",
+    "name": "Seafood Paella",
+    "price_gbp": 19.0,
+    "protein_g": 32,
+    "calories_kcal": 720,
+    "key_vitamins": ["B12", "C", "Selenium"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-132",
+    "name": "Spinach & Ricotta Ravioli",
+    "price_gbp": 11.0,
+    "protein_g": 14,
+    "calories_kcal": 490,
+    "key_vitamins": ["Calcium", "A", "K"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-133",
+    "name": "Grilled Swordfish",
+    "price_gbp": 18.5,
+    "protein_g": 30,
+    "calories_kcal": 340,
+    "key_vitamins": ["D", "B12", "Selenium"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-134",
+    "name": "Aloo Gobi",
+    "price_gbp": 9.5,
+    "protein_g": 6,
+    "calories_kcal": 310,
+    "key_vitamins": ["C", "K", "Folate"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-135",
+    "name": "Honey Mustard Chicken",
+    "price_gbp": 12.5,
+    "protein_g": 30,
+    "calories_kcal": 530,
+    "key_vitamins": ["B3", "B6", "Selenium"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-136",
+    "name": "Tofu Tacos",
+    "price_gbp": 9.5,
+    "protein_g": 16,
+    "calories_kcal": 390,
+    "key_vitamins": ["Calcium", "C", "Manganese"],
+    "dietary": ["vegan"]
+  },
+  {
+    "dish_id": "dsh-137",
+    "name": "Lamb Chops with Mint",
+    "price_gbp": 21.0,
+    "protein_g": 34,
+    "calories_kcal": 680,
+    "key_vitamins": ["B12", "Zinc", "Iron"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-138",
+    "name": "Mushroom Tagliatelle",
+    "price_gbp": 11.5,
+    "protein_g": 10,
+    "calories_kcal": 560,
+    "key_vitamins": ["D", "B2", "B3"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-139",
+    "name": "Grilled Corn on the Cob",
+    "price_gbp": 5.0,
+    "protein_g": 4,
+    "calories_kcal": 180,
+    "key_vitamins": ["C", "B1", "Folate"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-140",
+    "name": "Duck Confit",
+    "price_gbp": 22.0,
+    "protein_g": 26,
+    "calories_kcal": 720,
+    "key_vitamins": ["Iron", "B3", "B12"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-141",
+    "name": "Vegetable Tempura",
+    "price_gbp": 8.5,
+    "protein_g": 4,
+    "calories_kcal": 410,
+    "key_vitamins": ["A", "C", "E"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-142",
+    "name": "Salmon Poke Bowl",
+    "price_gbp": 14.5,
+    "protein_g": 30,
+    "calories_kcal": 580,
+    "key_vitamins": ["D", "B12", "Omega-3"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-143",
+    "name": "Broccoli & Cheddar Soup",
+    "price_gbp": 7.5,
+    "protein_g": 10,
+    "calories_kcal": 350,
+    "key_vitamins": ["K", "C", "Calcium"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-144",
+    "name": "BBQ Pulled Pork (No Bun)",
+    "price_gbp": 13.0,
+    "protein_g": 32,
+    "calories_kcal": 480,
+    "key_vitamins": ["B1", "B6", "Zinc"],
+    "dietary": ["gluten-free", "keto"]
+  },
+  {
+    "dish_id": "dsh-145",
+    "name": "Caprese Skewers",
+    "price_gbp": 7.0,
+    "protein_g": 8,
+    "calories_kcal": 210,
+    "key_vitamins": ["Calcium", "A", "C"],
+    "dietary": ["vegetarian", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-146",
+    "name": "Red Bean & Rice",
+    "price_gbp": 8.5,
+    "protein_g": 12,
+    "calories_kcal": 440,
+    "key_vitamins": ["Iron", "Folate", "Fiber"],
+    "dietary": ["vegan", "gluten-free"]
+  },
+  {
+    "dish_id": "dsh-147",
+    "name": "Baked Halibut",
+    "price_gbp": 19.5,
+    "protein_g": 28,
+    "calories_kcal": 310,
+    "key_vitamins": ["D", "B12", "Magnesium"],
+    "dietary": ["gluten-free"]
+  },
+  {
+    "dish_id": "dsh-148",
+    "name": "Ratatouille Tart",
+    "price_gbp": 10.5,
+    "protein_g": 6,
+    "calories_kcal": 390,
+    "key_vitamins": ["C", "A", "K"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-149",
+    "name": "Eggplant Moussaka (Vegetarian)",
+    "price_gbp": 12.0,
+    "protein_g": 14,
+    "calories_kcal": 510,
+    "key_vitamins": ["Calcium", "K", "B1"],
+    "dietary": ["vegetarian"]
+  },
+  {
+    "dish_id": "dsh-150",
+    "name": "Baked Apples with Cinnamon",
+    "price_gbp": 6.5,
+    "protein_g": 1,
+    "calories_kcal": 190,
+    "key_vitamins": ["C", "Fiber", "Potassium"],
+    "dietary": ["vegan", "gluten-free"]
+  }
+]

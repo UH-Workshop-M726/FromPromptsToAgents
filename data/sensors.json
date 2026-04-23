@@ -1,0 +1,171 @@
+[
+  {
+    "id": "sens-001",
+    "name": "RGB-D Camera (Intel RealSense D455)",
+    "type": "vision",
+    "description": "A stereo depth camera providing RGB images and depth maps. Ideal for object detection, 3D reconstruction, and navigation.",
+    "specifications": {
+      "resolution": "1280x720",
+      "depth_range_m": "0.4-6.0",
+      "frame_rate_fps": 90,
+      "field_of_view_degrees": 87,
+      "interface": "USB 3.0",
+      "weight_g": 120
+    },
+    "suitable_for": ["object detection", "pick and place", "navigation", "inspection", "sorting", "3D scanning"]
+  },
+  {
+    "id": "sens-002",
+    "name": "2D LiDAR Scanner (RPLiDAR A1)",
+    "type": "lidar",
+    "description": "A 360-degree 2D laser scanner for mapping and obstacle avoidance. Commonly used in indoor mobile robot navigation.",
+    "specifications": {
+      "range_m": 12,
+      "scan_rate_hz": 10,
+      "angular_resolution_degrees": 0.5,
+      "field_of_view_degrees": 360,
+      "interface": "UART/USB",
+      "weight_g": 170
+    },
+    "suitable_for": ["navigation", "mapping", "obstacle avoidance", "warehouse", "patrol", "SLAM"]
+  },
+  {
+    "id": "sens-003",
+    "name": "6-Axis Force/Torque Sensor (FT-300)",
+    "type": "force",
+    "description": "A high-precision 6-axis force/torque sensor for measuring contact forces during manipulation. Essential for assembly and polishing tasks.",
+    "specifications": {
+      "axes": 6,
+      "force_range_n": 300,
+      "torque_range_nm": 30,
+      "resolution_n": 0.05,
+      "sample_rate_hz": 1000,
+      "interface": "EtherCAT",
+      "weight_g": 350
+    },
+    "suitable_for": ["assembly", "polishing", "insertion", "collaborative", "quality control", "force control"]
+  },
+  {
+    "id": "sens-004",
+    "name": "Industrial Temperature Sensor (PT100 RTD)",
+    "type": "temperature",
+    "description": "A platinum resistance temperature detector for accurate temperature measurement in industrial environments. Suitable for process monitoring.",
+    "specifications": {
+      "range_celsius": "-50 to 500",
+      "accuracy_celsius": 0.1,
+      "response_time_ms": 500,
+      "interface": "analog (4-20mA)",
+      "weight_g": 50
+    },
+    "suitable_for": ["welding", "process monitoring", "food handling", "quality control", "safety"]
+  },
+  {
+    "id": "sens-005",
+    "name": "Infrared Proximity Sensor (IR-Sharp GP2Y0A21)",
+    "type": "proximity",
+    "description": "A compact infrared proximity sensor for short-range distance measurement and object detection. Simple analog output.",
+    "specifications": {
+      "range_cm": "10-80",
+      "output": "analog voltage",
+      "response_time_ms": 40,
+      "interface": "analog",
+      "weight_g": 5,
+      "price_usd": 12
+    },
+    "suitable_for": ["obstacle avoidance", "object detection", "conveyor belt", "edge detection", "prototyping"]
+  },
+  {
+    "id": "sens-006",
+    "name": "IMU (9-DOF Inertial Measurement Unit BNO055)",
+    "type": "imu",
+    "description": "A 9-axis inertial measurement unit combining accelerometer, gyroscope, and magnetometer with on-chip sensor fusion.",
+    "specifications": {
+      "axes_accel": 3,
+      "axes_gyro": 3,
+      "axes_mag": 3,
+      "accel_range_g": 16,
+      "gyro_range_dps": 2000,
+      "sample_rate_hz": 100,
+      "interface": "I2C/UART",
+      "weight_g": 3
+    },
+    "suitable_for": ["navigation", "stabilisation", "balance", "outdoor", "drone", "mobile"]
+  },
+  {
+    "id": "sens-007",
+    "name": "3D LiDAR (Velodyne VLP-16 Puck)",
+    "type": "lidar",
+    "description": "A high-performance 3D LiDAR with 16 channels, generating detailed 3D point clouds for autonomous navigation and environment mapping.",
+    "specifications": {
+      "channels": 16,
+      "range_m": 100,
+      "points_per_second": 300000,
+      "field_of_view_vertical_degrees": 30,
+      "field_of_view_horizontal_degrees": 360,
+      "scan_rate_hz": 20,
+      "interface": "Ethernet",
+      "weight_g": 830
+    },
+    "suitable_for": ["autonomous navigation", "outdoor", "mapping", "exploration", "search and rescue", "SLAM"]
+  },
+  {
+    "id": "sens-008",
+    "name": "Machine Vision Camera (Basler ace 2)",
+    "type": "vision",
+    "description": "A high-resolution industrial machine vision camera for quality inspection, barcode reading, and precise visual measurements.",
+    "specifications": {
+      "resolution": "2048x1536",
+      "frame_rate_fps": 60,
+      "sensor_type": "CMOS",
+      "interface": "GigE",
+      "trigger_modes": ["hardware", "software"],
+      "weight_g": 80
+    },
+    "suitable_for": ["quality control", "inspection", "sorting", "barcode reading", "measurement", "packaging"]
+  },
+  {
+    "id": "sens-009",
+    "name": "Ultrasonic Distance Sensor (HC-SR04)",
+    "type": "proximity",
+    "description": "A low-cost ultrasonic distance sensor for basic ranging and object detection. Great for educational projects and prototyping.",
+    "specifications": {
+      "range_cm": "2-400",
+      "accuracy_cm": 0.3,
+      "beam_angle_degrees": 15,
+      "interface": "digital (trigger/echo)",
+      "weight_g": 8,
+      "price_usd": 3
+    },
+    "suitable_for": ["obstacle avoidance", "prototyping", "education", "object detection", "level sensing"]
+  },
+  {
+    "id": "sens-010",
+    "name": "Thermal Imaging Camera (FLIR Lepton 3.5)",
+    "type": "temperature",
+    "description": "A compact thermal imaging camera module that captures infrared thermal images. Useful for detecting heat signatures and monitoring equipment temperature.",
+    "specifications": {
+      "resolution": "160x120",
+      "temperature_range_celsius": "-10 to 400",
+      "accuracy_celsius": 5,
+      "frame_rate_fps": 9,
+      "interface": "SPI/I2C",
+      "weight_g": 1
+    },
+    "suitable_for": ["inspection", "safety", "search and rescue", "process monitoring", "predictive maintenance"]
+  },
+  {
+    "id": "sens-011",
+    "name": "Encoder (Optical Rotary, 2048 PPR)",
+    "type": "imu",
+    "description": "A high-resolution optical rotary encoder for precise position and velocity feedback on motor shafts and joints.",
+    "specifications": {
+      "pulses_per_revolution": 2048,
+      "max_rpm": 6000,
+      "output_type": "quadrature A/B",
+      "interface": "digital",
+      "shaft_diameter_mm": 6,
+      "weight_g": 45
+    },
+    "suitable_for": ["motor control", "position feedback", "assembly", "pick and place", "precision"]
+  }
+]

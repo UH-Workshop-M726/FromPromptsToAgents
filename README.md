@@ -1,4 +1,4 @@
-\# From Prompt to Agent: Your First Intelligent AI System
+# From Prompt to Agent: Your First Intelligent AI System
 
 **Workshop | 18 April 2026 | University of Hertfordshire**
 
@@ -6,13 +6,13 @@
 
 ## Presenters
 
-| Presenter | Role | LinkedIn |
-|---|---|---|
-| **Abolfazl Zaraki** | Senior Lecturer in Robotics and AI | [Profile](https://www.linkedin.com/in/abolfazl-zaraki-8b48b12a/) |
-| **M. Reza Shahabian A.** | Principal AI Engineer \| AI Researcher | [Profile](https://www.linkedin.com/in/mrshahabian/) |
-| **Khashayar Ghamati** | Principal AI Engineer \| AI Researcher | [Profile](https://www.linkedin.com/in/khashayarghamati/) |
-| **Ali Fallahi** | AI UX Researcher \| HRI | [Profile](https://www.linkedin.com/in/ali-fallahi/) |
-| **Danial Zafaranchizadeh M.** | AI Engineer \| Robotics Researcher | [Profile](https://www.linkedin.com/in/danial-za/) |
+| Presenter                     | Role                                   | LinkedIn                                                         |
+| ----------------------------- | -------------------------------------- | ---------------------------------------------------------------- |
+| **Abolfazl Zaraki**           | Senior Lecturer in Robotics and AI     | [Profile](https://www.linkedin.com/in/abolfazl-zaraki-8b48b12a/) |
+| **M. Reza Shahabian A.**      | Principal AI Engineer \| AI Researcher | [Profile](https://www.linkedin.com/in/mrshahabian/)              |
+| **Khashayar Ghamati**         | Principal AI Engineer \| AI Researcher | [Profile](https://www.linkedin.com/in/khashayarghamati/)         |
+| **Ali Fallahi**               | AI UX Researcher \| HRI                | [Profile](https://www.linkedin.com/in/ali-fallahi/)              |
+| **Danial Zafaranchizadeh M.** | AI Engineer \| Robotics Researcher     | [Profile](https://www.linkedin.com/in/danial-za/)                |
 
 Brought to you by **PARSAI** and the **School of Physics, Engineering and Computer Science, University of Hertfordshire**.
 
@@ -34,6 +34,7 @@ Each session is self-contained. Follow the steps in order within each session fo
 Create a virtual environment once at the root of the repo, then activate it before running any session code.
 
 **Create and activate:**
+
 ```bash
 python -m venv .venv
 
@@ -50,6 +51,7 @@ source .venv/bin/activate
 Your prompt will show `(.venv)` when the environment is active.
 
 **Install dependencies for the session you are working on:**
+
 ```bash
 pip install -r session1/requirements.txt   # repeat for each session as needed
 ```
@@ -68,8 +70,7 @@ The university runs **Qwen2.5-72B-Instruct** on a GPU cluster. This is the best 
 
 ```
 LLM_SERVICE_URL=https://uhhpc.herts.ac.uk/qwen
-
-LLM_API_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEyMyIsIm5hbWUiOiJLaGFzaGF5YXIiLCJyb2xlIjoicHJpbmNpcGFsX2FpX2VuZ2luZWVyIiwiaWF0IjoxNzc0MjE0NzY0LCJleHAiOjE3NzQyMTgzNjR9.6cyxd0svDfs1Hzh29CkMFidpgaBDinFa9nHXywq3F-Y
+LLM_API_TOKEN=your-token-here
 ```
 
 The workshop instructor will provide the token on the day.
@@ -79,19 +80,20 @@ The workshop instructor will provide the token on the day.
 If the local service is down or you're working from home, use Google Gemini. It's **free** and takes 2 minutes to set up.
 
 **Setup:**
+
 1. Go to **https://aistudio.google.com**
 2. Sign in with your Google account
 3. Click **"Get API Key"** in the left sidebar
 4. Click **"Create API key"** → select any project → copy the key
-5. keep the API key somewhere safe then copy it to the to .env  on each session:
-        In your `.env` file set:
-        ```
-         GEMINI_API_KEY=your-key-here
-        ```
+5. keep the API key somewhere safe then copy it to the to .env on each session:
+   In your `.env` file set:
+   `      GEMINI_API_KEY=your-key-here
+    `
 
 That's it! The code automatically detects which backend is available and uses it.
 
 **Test your connection:**
+
 ```bash
 cd session1
 cp .env.example .env      # Copy the template
@@ -111,6 +113,7 @@ You should see `Backend: local` or `Backend: gemini` and a test response.
 Each session has a `steps/` folder with numbered files. **Run them in order:**
 
 ### Session 1 : Building Blocks
+
 ```bash
 cd session1
 pip install -r requirements.txt
@@ -125,6 +128,7 @@ streamlit run steps/step5_personas.py    # Prompt engineering
 ```
 
 ### Session 2 : MCP & Robotics Agent
+
 ```bash
 cd session2
 pip install -r requirements.txt
@@ -137,6 +141,7 @@ python steps/step3_run_agent.py          # Run the full agent!
 ```
 
 ### Session 3 : RAG Concepts
+
 ```bash
 cd session3
 pip install -r requirements.txt
@@ -144,10 +149,11 @@ cp .env.example .env
 code .env    # If you are using VS Code; otherwise, open the .env file and set up your API keys.
 
 python rag_demo.py                       # See RAG in action (demo only)
-streamlit run rag_streamlit.py 
+streamlit run rag_streamlit.py
 ```
 
 ### Session 4 : Recipe Agent
+
 ```bash
 cd session4
 pip install -r requirements.txt
@@ -160,6 +166,7 @@ python steps/step3_run_agent.py          # Run the recipe agent
 ```
 
 ### Session 5 : A2A
+
 ```bash
 cd session5
 pip install -r requirements.txt
@@ -168,6 +175,7 @@ code .env    # If you are using VS Code; otherwise, open the .env file and set u
 
 streamlit run app.py                     # Run the full platform!
 ```
+
 ---
 
 ## Prerequisites
@@ -189,6 +197,7 @@ streamlit run app.py                     # Run the full platform!
 
 **Gemini 429 Too Many Requests**
 → The shared workshop key is rate-limited. You must get your own free key:
+
 1. Go to **https://aistudio.google.com** → sign in → click **"Get API Key"**
 2. Click **"Create API key"** → copy it
 3. Open your `.env` file and replace the existing value: `GEMINI_API_KEY=your-new-key`

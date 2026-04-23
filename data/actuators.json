@@ -1,0 +1,134 @@
+[
+  {
+    "id": "act-001",
+    "name": "Parallel Jaw Gripper (PG-50)",
+    "type": "gripper",
+    "description": "A pneumatic parallel jaw gripper with adjustable grip force. Suitable for picking rigid objects of various sizes.",
+    "specifications": {
+      "grip_force_n": 50,
+      "stroke_mm": 80,
+      "actuation": "pneumatic",
+      "weight_g": 350,
+      "gripping_speed_ms": 100,
+      "finger_slots": 2
+    },
+    "suitable_for": ["pick and place", "assembly", "sorting", "packaging", "machine tending"]
+  },
+  {
+    "id": "act-002",
+    "name": "Vacuum Suction Cup Gripper (VS-4)",
+    "type": "gripper",
+    "description": "A vacuum-based suction gripper with four cups for handling flat and smooth objects like boxes, sheets, and panels.",
+    "specifications": {
+      "suction_cups": 4,
+      "max_payload_kg": 10,
+      "actuation": "vacuum pump",
+      "weight_g": 200,
+      "suitable_surfaces": ["flat", "smooth", "semi-porous"]
+    },
+    "suitable_for": ["pick and place", "packaging", "palletising", "conveyor belt", "sheet handling"]
+  },
+  {
+    "id": "act-003",
+    "name": "Soft Robotic Gripper (SG-3F)",
+    "type": "gripper",
+    "description": "A three-finger soft pneumatic gripper that adapts to irregular object shapes. Safe for handling delicate and fragile items.",
+    "specifications": {
+      "fingers": 3,
+      "max_payload_kg": 2,
+      "actuation": "pneumatic (soft)",
+      "weight_g": 150,
+      "adaptable_shapes": true,
+      "food_safe": true
+    },
+    "suitable_for": ["food handling", "pick and place", "delicate objects", "sorting", "collaborative", "agriculture"]
+  },
+  {
+    "id": "act-004",
+    "name": "Peristaltic Pump (PP-100)",
+    "type": "pump",
+    "description": "A peristaltic pump for precise dispensing of liquids, adhesives, and pastes. The fluid only contacts the tubing, ensuring cleanliness.",
+    "specifications": {
+      "flow_rate_ml_per_min": 100,
+      "tubing_diameter_mm": 6,
+      "actuation": "stepper motor",
+      "weight_g": 400,
+      "accuracy_percent": 1
+    },
+    "suitable_for": ["dispensing", "food handling", "laboratory", "adhesive application", "painting"]
+  },
+  {
+    "id": "act-005",
+    "name": "Spray Nozzle Assembly (SN-P2)",
+    "type": "nozzle",
+    "description": "An electronically controlled spray nozzle for painting, coating, and cleaning applications. Adjustable spray pattern and flow rate.",
+    "specifications": {
+      "spray_patterns": ["cone", "flat", "mist"],
+      "flow_rate_ml_per_min": 500,
+      "pressure_bar": 6,
+      "actuation": "solenoid valve",
+      "weight_g": 250
+    },
+    "suitable_for": ["painting", "coating", "cleaning", "agriculture", "disinfection"]
+  },
+  {
+    "id": "act-006",
+    "name": "Rotary Cutting Tool (RC-D10)",
+    "type": "cutter",
+    "description": "A high-speed rotary cutting tool for trimming, deburring, and machining operations. Includes spindle speed control.",
+    "specifications": {
+      "max_rpm": 30000,
+      "tool_diameter_mm": 10,
+      "power_w": 500,
+      "actuation": "brushless motor",
+      "weight_g": 800,
+      "collet_size_mm": 6
+    },
+    "suitable_for": ["cutting", "deburring", "trimming", "machining", "engraving"]
+  },
+  {
+    "id": "act-007",
+    "name": "MIG Welding Torch (WT-M200)",
+    "type": "welder",
+    "description": "A robotic MIG welding torch for automated welding of steel and aluminium. Includes wire feed and gas shielding.",
+    "specifications": {
+      "welding_current_a": 200,
+      "wire_diameter_mm": "0.8-1.2",
+      "gas_type": "Argon/CO2 mix",
+      "duty_cycle_percent": 60,
+      "weight_g": 1200
+    },
+    "suitable_for": ["welding", "fabrication", "industrial", "automotive", "construction"]
+  },
+  {
+    "id": "act-008",
+    "name": "Magnetic Stirrer End-Effector (MS-E1)",
+    "type": "stirrer",
+    "description": "A motorised stirring attachment for mixing liquids in laboratory and food processing applications.",
+    "specifications": {
+      "max_rpm": 2000,
+      "torque_nm": 0.5,
+      "shaft_length_mm": 200,
+      "actuation": "DC motor",
+      "weight_g": 300,
+      "food_safe": true
+    },
+    "suitable_for": ["laboratory", "food handling", "mixing", "chemical processing"]
+  },
+  {
+    "id": "act-009",
+    "name": "Adaptive Finger Gripper (AF-2D)",
+    "type": "gripper",
+    "description": "A two-finger electric gripper with force feedback for controlled grasping. Each finger has independent position control.",
+    "specifications": {
+      "fingers": 2,
+      "grip_force_n": 140,
+      "stroke_mm": 110,
+      "actuation": "electric servo",
+      "weight_g": 900,
+      "force_feedback": true,
+      "speed_mm_per_s": 150
+    },
+    "suitable_for": ["pick and place", "assembly", "inspection", "machine tending", "collaborative", "sorting"]
+  }
+]

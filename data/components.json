@@ -1,0 +1,222 @@
+[
+  {
+    "id": "comp-001",
+    "name": "6-DOF Robotic Arm (RA-6D)",
+    "category": "manipulator",
+    "description": "A versatile 6 degrees-of-freedom robotic arm capable of precise positioning and orientation control. Ideal for pick-and-place, assembly, and welding tasks.",
+    "specifications": {
+      "degrees_of_freedom": 6,
+      "reach_mm": 850,
+      "payload_kg": 5.0,
+      "repeatability_mm": 0.02,
+      "weight_kg": 28,
+      "power_consumption_w": 350
+    },
+    "suitable_for": ["pick and place", "assembly", "welding", "painting", "inspection", "sorting"]
+  },
+  {
+    "id": "comp-002",
+    "name": "Delta Robot (DR-3P)",
+    "category": "manipulator",
+    "description": "A high-speed parallel delta robot optimised for rapid pick-and-place operations on conveyor belts and packaging lines.",
+    "specifications": {
+      "degrees_of_freedom": 3,
+      "reach_mm": 400,
+      "payload_kg": 1.5,
+      "repeatability_mm": 0.05,
+      "picks_per_minute": 150,
+      "weight_kg": 14,
+      "power_consumption_w": 200
+    },
+    "suitable_for": ["pick and place", "sorting", "packaging", "conveyor belt", "food handling"]
+  },
+  {
+    "id": "comp-003",
+    "name": "SCARA Arm (SC-4A)",
+    "category": "manipulator",
+    "description": "A 4-axis SCARA (Selective Compliance Assembly Robot Arm) designed for high-speed horizontal assembly and insertion tasks.",
+    "specifications": {
+      "degrees_of_freedom": 4,
+      "reach_mm": 600,
+      "payload_kg": 3.0,
+      "repeatability_mm": 0.01,
+      "weight_kg": 18,
+      "power_consumption_w": 250
+    },
+    "suitable_for": ["assembly", "insertion", "pick and place", "soldering", "dispensing", "sorting"]
+  },
+  {
+    "id": "comp-004",
+    "name": "Collaborative Robot Arm (CR-7)",
+    "category": "manipulator",
+    "description": "A lightweight collaborative robot (cobot) with built-in force sensing for safe human-robot interaction. Suitable for shared workspaces.",
+    "specifications": {
+      "degrees_of_freedom": 7,
+      "reach_mm": 900,
+      "payload_kg": 7.0,
+      "repeatability_mm": 0.03,
+      "weight_kg": 22,
+      "power_consumption_w": 300,
+      "safety_rated": true
+    },
+    "suitable_for": ["assembly", "pick and place", "inspection", "collaborative", "packaging", "machine tending"]
+  },
+  {
+    "id": "comp-005",
+    "name": "Differential Drive Wheeled Base (WB-D2)",
+    "category": "mobile_base",
+    "description": "A compact two-wheeled differential drive mobile base with caster wheels for indoor navigation. Supports payloads up to 50 kg.",
+    "specifications": {
+      "drive_type": "differential",
+      "max_speed_ms": 1.2,
+      "payload_kg": 50,
+      "battery_hours": 6,
+      "dimensions_mm": "500x400x200",
+      "weight_kg": 15,
+      "indoor_outdoor": "indoor"
+    },
+    "suitable_for": ["warehouse", "delivery", "inspection", "patrol", "mapping", "navigation"]
+  },
+  {
+    "id": "comp-006",
+    "name": "Tracked Mobile Base (TB-H4)",
+    "category": "mobile_base",
+    "description": "A heavy-duty tracked mobile base designed for rough terrain and outdoor environments. Can traverse uneven surfaces and slopes.",
+    "specifications": {
+      "drive_type": "tracked",
+      "max_speed_ms": 0.8,
+      "payload_kg": 100,
+      "battery_hours": 4,
+      "dimensions_mm": "800x600x300",
+      "weight_kg": 35,
+      "indoor_outdoor": "outdoor",
+      "max_incline_degrees": 30
+    },
+    "suitable_for": ["outdoor", "agriculture", "exploration", "terrain", "search and rescue", "inspection"]
+  },
+  {
+    "id": "comp-007",
+    "name": "Mecanum Wheel Base (MW-O4)",
+    "category": "mobile_base",
+    "description": "An omnidirectional mobile base using four mecanum wheels, allowing movement in any direction without turning. Perfect for tight spaces.",
+    "specifications": {
+      "drive_type": "mecanum",
+      "max_speed_ms": 1.0,
+      "payload_kg": 30,
+      "battery_hours": 5,
+      "dimensions_mm": "600x500x200",
+      "weight_kg": 20,
+      "indoor_outdoor": "indoor"
+    },
+    "suitable_for": ["warehouse", "delivery", "navigation", "pick and place", "collaborative"]
+  },
+  {
+    "id": "comp-008",
+    "name": "Raspberry Pi 5 Controller",
+    "category": "controller",
+    "description": "A versatile single-board computer suitable for lightweight robotics control, sensor processing, and network communication.",
+    "specifications": {
+      "processor": "Broadcom BCM2712 Quad-core ARM Cortex-A76",
+      "ram_gb": 8,
+      "gpio_pins": 40,
+      "connectivity": ["WiFi 6", "Bluetooth 5.0", "Ethernet", "USB 3.0"],
+      "power_consumption_w": 12,
+      "price_usd": 80
+    },
+    "suitable_for": ["prototyping", "education", "navigation", "sensor processing", "lightweight control"]
+  },
+  {
+    "id": "comp-009",
+    "name": "NVIDIA Jetson Orin Nano",
+    "category": "controller",
+    "description": "A powerful AI edge computing module with a dedicated GPU, ideal for real-time computer vision, deep learning inference, and autonomous navigation.",
+    "specifications": {
+      "processor": "6-core ARM Cortex-A78AE",
+      "gpu": "1024-core NVIDIA Ampere",
+      "ram_gb": 8,
+      "ai_performance_tops": 40,
+      "connectivity": ["WiFi", "Bluetooth", "Ethernet", "USB 3.0", "CSI camera"],
+      "power_consumption_w": 25,
+      "price_usd": 500
+    },
+    "suitable_for": ["computer vision", "deep learning", "autonomous navigation", "object detection", "sorting", "inspection"]
+  },
+  {
+    "id": "comp-010",
+    "name": "Aluminium Extrusion Frame Kit (AF-30)",
+    "category": "frame",
+    "description": "A modular aluminium extrusion frame kit (30x30 mm profile) for building custom robot structures. Lightweight and easy to assemble.",
+    "specifications": {
+      "material": "6063-T5 Aluminium",
+      "profile_mm": "30x30",
+      "max_load_kg": 80,
+      "pieces": 20,
+      "connectors_included": true,
+      "weight_kg": 8
+    },
+    "suitable_for": ["prototyping", "custom build", "education", "assembly", "lightweight"]
+  },
+  {
+    "id": "comp-011",
+    "name": "Steel Welded Frame (SF-H1)",
+    "category": "frame",
+    "description": "A heavy-duty welded steel frame designed for industrial robot installations. Provides rigid mounting for high-payload applications.",
+    "specifications": {
+      "material": "Mild Steel",
+      "max_load_kg": 500,
+      "dimensions_mm": "1000x800x600",
+      "weight_kg": 45,
+      "corrosion_resistant": false
+    },
+    "suitable_for": ["industrial", "heavy payload", "welding", "machine tending", "permanent installation"]
+  },
+  {
+    "id": "comp-012",
+    "name": "LiPo Battery Pack (BP-24V)",
+    "category": "power",
+    "description": "A 24V lithium polymer battery pack providing reliable portable power for mobile robots and medium-duty applications.",
+    "specifications": {
+      "voltage_v": 24,
+      "capacity_ah": 20,
+      "energy_wh": 480,
+      "max_discharge_a": 30,
+      "weight_kg": 3.5,
+      "charge_time_hours": 3,
+      "cycle_life": 800
+    },
+    "suitable_for": ["mobile", "warehouse", "delivery", "outdoor", "portable"]
+  },
+  {
+    "id": "comp-013",
+    "name": "Industrial Power Supply Unit (PSU-48V)",
+    "category": "power",
+    "description": "A 48V industrial-grade power supply unit for stationary robot installations. Features overcurrent protection and high efficiency.",
+    "specifications": {
+      "voltage_v": 48,
+      "max_current_a": 20,
+      "power_w": 960,
+      "efficiency_percent": 94,
+      "input_voltage": "100-240V AC",
+      "weight_kg": 2.8,
+      "cooling": "fan"
+    },
+    "suitable_for": ["industrial", "stationary", "welding", "heavy payload", "permanent installation"]
+  },
+  {
+    "id": "comp-014",
+    "name": "Arduino Mega 2560 Controller",
+    "category": "controller",
+    "description": "A microcontroller board ideal for low-level motor control, sensor reading, and real-time I/O operations in robotics projects.",
+    "specifications": {
+      "processor": "ATmega2560",
+      "clock_mhz": 16,
+      "digital_io_pins": 54,
+      "analog_input_pins": 16,
+      "pwm_pins": 15,
+      "connectivity": ["USB", "Serial"],
+      "power_consumption_w": 1,
+      "price_usd": 40
+    },
+    "suitable_for": ["prototyping", "education", "motor control", "sensor reading", "lightweight control"]
+  }
+]
